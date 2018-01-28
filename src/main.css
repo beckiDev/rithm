@@ -1,0 +1,99 @@
+
+  .App {
+    text-align: center;
+  }
+
+  .generate {
+    background-color: #4CAF50;
+    border-radius: 10px;
+    color: white;
+    display: inline-block;
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .vote{
+    font-size: 30px;
+    display: flex;
+    outline: none;
+    border: none;
+    width:20px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding:10px;
+  }
+
+  .fa:hover {
+    opacity: 0.5;
+  }
+
+  .joke_container{
+    background-color: lightGray;
+    border-radius: 10px;
+    font-size: 20px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 500px;
+  }
+  .List{
+    background-color: lightGray;
+    border-radius: 10px;
+    font-size: 20px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 500px;
+    text-align: left;
+  }
+
+@media screen and (max-width: 480px){
+  .joke_container{
+    background-color: lightGray;
+    border-radius: 10px;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 480px;
+  }
+  .List{
+    background-color: lightGray;
+    border-radius: 10px;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 480px;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 320px){
+  .joke_container{
+    background-color: lightGray;
+    border-radius: 10px;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 480px;
+  }
+  .List{
+    bbackground-color: lightGray;
+    border-radius: 10px;
+    font-size: 18px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 480px;
+    text-align: left;
+  }
+}
